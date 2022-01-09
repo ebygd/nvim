@@ -9,10 +9,7 @@ if exists('g:vscode')
 	
 else
 	source $HOME/.config/nvim/plug-config/plugins.vim
-	"source $HOME/.config/nvim/general/settings.vim
-	"source $HOME/.config/nvim/keys/mappings.vim
-
-  set background=dark
-  colorscheme tokyodark
-  let g:lightline = {'colorscheme' : 'tokyonight'}
+	set background=dark
+	colorscheme tokyodark
+	let g:lightline = {'colorscheme' : 'tokyonight'}
 endif
